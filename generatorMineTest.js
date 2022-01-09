@@ -1,5 +1,4 @@
 (($) => {
- console.log("Start.....");
 
 var currentCode = 0;
 
@@ -27,11 +26,10 @@ var currentCode = 0;
     var couponCode = addCheckDigit(zeroPad(prefix) + zeroPad(uniq) + zeroPad(master, 4));
 	console.log("Debug: Master Check New");
 	console.log(zeroPad(master, 4));
-    console.log("Debug: Final Code");
-    console.log(couponCode)
+
   }
 
-console.log("End");
+
 
     if (typeof title !== 'undefined') {
       var couponLimits = "";
