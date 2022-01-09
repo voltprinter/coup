@@ -89,8 +89,8 @@
             month: 'short',
             day: 'numeric',
             year: 'numeric'
-        });
-    }
+        })
+    };
 
     $(document).ready(() => {
         buildCoupons();
