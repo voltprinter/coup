@@ -54,7 +54,7 @@
         $('.coupon-code').val(couponCode);
         $('#coupon-modal').modal({
             show: true
-        })
+        });
 
     function printCoupon() {
         window.print();
@@ -89,8 +89,8 @@
             month: 'short',
             day: 'numeric',
             year: 'numeric'
-        })
-    };
+        });
+    }
 
     $(document).ready(() => {
         buildCoupons();
