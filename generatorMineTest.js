@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
-($ =>{
+($ = >{
 
         function zeroPad(number, targetLength = 5) {
             return parseInt(number).toString().padStart(targetLength, '0');
