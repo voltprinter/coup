@@ -57,6 +57,7 @@
     $('.coupon-code').select();
     document.execCommand('copy');
   }
+
   function printCoupon() {
     window.print();
   }
