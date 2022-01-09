@@ -11,7 +11,7 @@ var couponData = [
   {
     "name": "$10 off $50",
     "data": {
-      "mastercode": "5842",
+      "mastercode": "3089",
       "title": "$10 off",
       "subtitle": "purchases over $50",
       "expiry": "January"
@@ -20,7 +20,7 @@ var couponData = [
   {
     "name": "$20 off $100",
     "data": {
-      "mastercode": "9582",
+      "mastercode": "3089",
       "title": "$20 off",
       "subtitle": "purchases over $100",
       "expiry": "January"
