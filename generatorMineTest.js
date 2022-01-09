@@ -1,4 +1,6 @@
 /*jshint esversion: 6 */
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
 (($) => {
 
 var currentCode = 0;
