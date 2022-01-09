@@ -55,10 +55,6 @@
         $('#coupon-modal').modal({
             show: true
         });
-    function copyCoupon() {
-        $('.coupon-code').select();
-        document.execCommand('copy');
-    }
 
     function printCoupon() {
         window.print();
