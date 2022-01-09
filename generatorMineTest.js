@@ -30,7 +30,6 @@ var currentCode = 0;
 
   }
 
-console.log("End");
 
     if (typeof title !== 'undefined') {
       var couponLimits = "";
