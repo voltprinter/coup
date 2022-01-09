@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */
 (($) => {
 
-
 var currentCode = 0;
 
   function zeroPad(number, targetLength = 5) {
