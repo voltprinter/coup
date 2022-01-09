@@ -111,3 +111,4 @@
         $('.new-coupon').click(() => openBarcode(currentCode));
     });
 })(jQuery);
+ 
