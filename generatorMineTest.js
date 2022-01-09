@@ -54,7 +54,7 @@
         $('.coupon-code').val(couponCode);
         $('#coupon-modal').modal({
             show: true
-        });
+        })
 
     function printCoupon() {
         window.print();
